@@ -83,4 +83,15 @@ echo $OFFSET >> "$OUT"
 rm .nullfile
 
 ;;
+*)
+echo "To Create;"
+echo "Arguments: <INPUT FILE> <PARTITION SIZE> <FILE SYSTEM> <OUTPUT FILE>"
+echo "------------"
+echo "To Mount;"
+echo "Arguments: <FILE> <OFFSET> <MOUNTPOINT>"
+echo "-----------"
+echo "To unmount;"
+echo "Arguments: <FILE>"
+echo "-----------"
+;;
 esac

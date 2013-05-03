@@ -23,7 +23,7 @@ if [ -z "$newmac" ]; then
 	read confirmation
 	if [ "$confirmation" == "y" ]; then 
 		echo "Enter MAC-address for computer '$name'; "
-		read $newmac
+		read newmac
 		echo "$name;$newmac" >> $MACFILE
 	else
 		exit 0
